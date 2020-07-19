@@ -1,0 +1,34 @@
+{
+  "name": "pmcs",
+  "version": "1.0.0",
+  "description": "This is the main site files for PMCS",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshimoto/pmcs.git"
+  },
+  "author": "Joshua Gomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshimoto/pmcs/issues"
+  },
+  "homepage": "https://github.com/Joshimoto/pmcs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
